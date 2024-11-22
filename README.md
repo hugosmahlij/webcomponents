@@ -1,9 +1,8 @@
-Web Components
-Este proyecto es una introducción práctica al uso de Web Components utilizando las APIs nativas de Custom Elements y Shadow DOM. La aplicación creada consta de tres componentes principales que trabajan juntos para crear una interfaz de inicio de sesión interactiva y modular.
-
+# Web Components
+### Este proyecto es una introducción práctica al uso de Web Components utilizando las APIs nativas de Custom Elements y Shadow DOM. La aplicación creada consta de tres componentes principales que trabajan juntos para crear una interfaz de inicio de sesión interactiva y modular.
+---
 Estructura del Proyecto
-plaintext
-Copy code
+```
 src/
 ├── components/
 │   ├── alert-message.js   # Componente de mensajes de alerta
@@ -12,6 +11,8 @@ src/
 ├── index.html             # Archivo HTML principal
 ├── main.js                # Archivo de entrada principal para importar los componentes
 └── style.css              # Archivo de estilos globales
+```
+---
 Componentes
 1. alert-message
 Este componente muestra mensajes de alerta estilizados. Soporta cuatro tipos de alerta: éxito, advertencia, error e información.
@@ -34,9 +35,9 @@ Este componente contenedor integra los dos componentes anteriores (alert-message
 Comportamiento:
 Escucha el evento login-result emitido por user-login.
 Actualiza dinámicamente las propiedades de alert-message en función del resultado del inicio de sesión.
-
+---
 Tecnologías Utilizadas
-Web Components:
-Custom Elements: Para definir los componentes personalizados.
-Shadow DOM: Para encapsular estilos y comportamientos.
-HTML y CSS: Para la estructura y el diseño de la interfaz.
+- Web Components:
+-- Custom Elements: Para definir los componentes personalizados.
+-- Shadow DOM: Para encapsular estilos y comportamientos.
+- HTML y CSS: Para la estructura y el diseño de la interfaz.
