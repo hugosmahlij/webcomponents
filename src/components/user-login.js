@@ -75,7 +75,7 @@ class UserLogin extends HTMLElement {
           success: username === 'admin' && password === '1234',
           message:
             username === 'admin' && password === '1234'
-              ? 'Log in succesful'
+              ? 'Sign in succesful'
               : 'Wrong username or password',
         },
         bubbles: true,
